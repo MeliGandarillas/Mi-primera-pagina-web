@@ -71,7 +71,15 @@
         }
 
          #sobre-mi {
+            flex: 1; 
+            margin: 0;
             background-color: white;
+        }
+
+        #educacion {
+            flex: 1; 
+            margin: 0;
+            background-color: rgb(185, 185, 185);
         }
 
         #proyectos {
@@ -129,6 +137,15 @@
             font-size: 1.1rem;          /* Texto un poco más grande */
             margin-bottom: 1rem;        /* Espacio entre párrafos */
             line-height: 1;           /* Más espacio entre líneas */
+        }
+
+        .contenedor-principal {
+            display: flex;           /* Activa Flexbox */
+            gap: 30px;              /* Espacio de separación entre las dos columnas */
+            justify-content: center; /* Centra las columnas en tu pantalla Lenovo */
+            align-items: stretch;   /* Hace que ambas secciones tengan la misma altura */
+            margin: 2rem auto;      /* Centra el contenedor y le da espacio arriba/abajo */
+            max-width: 1200px;      /* Para que no se estiren al infinito en pantallas grandes */
         }
 
         html {
